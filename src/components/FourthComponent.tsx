@@ -1,16 +1,16 @@
 import React from 'react';
-import createPostImage from '../assets/images/illustration-create-post.jpg';
+import chatImage from '../assets/images/illustration-ai-content.jpg'
 import './styles.css';
 
-const FirstComponent = () => {
+const FourthComponent = () => {
     return (
         <div className="first-container">
             <p style={{ color: 'black' }}>
                 Create and schedule content quicker
             </p>
-            <img src={createPostImage} alt='create post' />
+            <img src={chatImage} alt='create post' />
         </div>
     );
 };
 
-export default FirstComponent;
+export default FourthComponent;
