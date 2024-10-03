@@ -16,13 +16,19 @@
     width: 150px;
 }
 
+.fourth-container {
+    background-color: #f8bd69;
+    height: 500px;
+    width: 150px;
+}
+
 
 h1{
     color: white;
     font-size: 2rem
 }
 
-.first-container, .second-container, .third-container{
+.first-container, .second-container, .third-container, .fourth-container{
     border-radius: 10px;
     flex-direction: column;
     padding: 10px;

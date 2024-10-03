@@ -4,9 +4,9 @@ import './styles.css';
 
 const FourthComponent = () => {
     return (
-        <div className="first-container">
+        <div className="fourth-container">
             <p style={{ color: 'black' }}>
-                Create and schedule content quicker
+                Write your content using AI
             </p>
             <img src={chatImage} alt='create post' />
         </div>
