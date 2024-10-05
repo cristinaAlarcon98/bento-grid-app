@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import scheduleImage from '../assets/images/illustration-schedule-posts.jpg'
+import scheduleImage from './assets/images/illustration-schedule-posts.jpg'
 
 const ThirdComponent = () => {
     return (

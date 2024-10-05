@@ -1,5 +1,5 @@
 import React from 'react';
-import chatImage from '../assets/images/illustration-ai-content.jpg'
+import chatImage from './assets/images/illustration-ai-content.jpg'
 import './styles.css';
 
 const FourthComponent = () => {

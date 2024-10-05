@@ -1,22 +1,25 @@
 import React from 'react';
-import './App.css';
-import FirstComponent from './components/FirstComponent.component.tsx';
-import SecondComponent from './components/SecondComponent.tsx';
-import ThirdComponent from './components/ThirdComponent.tsx';
-import FourthComponent from './components/FourthComponent.tsx';
+import './styles.css'
+
+
+
+import FirstComponent from './FirstComponent.component.tsx';
+import SecondComponent from './SecondComponent.tsx';
+import ThirdComponent from './ThirdComponent.tsx';
+import FourthComponent from './FourthComponent.tsx';
+import FifthComponent from './FifthComponent.tsx';
+import SixthComponent from './SixthComponent.tsx';
 
 
 const App:React.FC = () => {
   return (
-    <div style={{height: 'calc(100vh - 30px)', display:'flex', flexDirection:'column'}} >
-      <div style={{display:'flex', flexWrap: 'wrap',alignItems:'flex-start'}}>
+    <div className='app-grid'>
       <FirstComponent></FirstComponent>
       <SecondComponent></SecondComponent>
       <ThirdComponent></ThirdComponent>
-      </div>
-      <div style={{display:'flex',flexDirection: 'row'}}>
       <FourthComponent></FourthComponent>
-      </div>
+      <FifthComponent></FifthComponent>
+      <SixthComponent></SixthComponent>
     </div>
   );
 }

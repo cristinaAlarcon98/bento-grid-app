@@ -1,5 +1,5 @@
 import React from 'react';
-import createPostImage from '../assets/images/illustration-create-post.jpg';
+import createPostImage from './assets/images/illustration-create-post.jpg';
 import './styles.css';
 
 const FirstComponent = () => {

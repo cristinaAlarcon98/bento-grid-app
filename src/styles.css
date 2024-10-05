@@ -1,25 +1,35 @@
 .first-container {
     background-color: #fad6cf;
-    height: 300px;
-    width: 150px;
+    grid-row: 1/5;
+    grid-column: 1/3;
 }
 
 .second-container {
     background-color: #804aec;
-    height: 300px;
-    width: 150px;
+    grid-row: 1/4;
+    grid-column: 3/7;
 }
 
 .third-container {
     background-color: #dcbff9;
-    height: 500px;
-    width: 150px;
+    grid-row: 1/7;
+    grid-column: 7/9;
 }
 
 .fourth-container {
     background-color: #f8bd69;
-    height: 500px;
-    width: 150px;
+    grid-row: 5/10;
+    grid-column: 1/3;
+}
+.fifth-container {
+    background-color: #f8bd69;
+    grid-row: 4/7;
+    grid-column: 3/5;
+}
+.sixth-container {
+    background-color: #f8bd69;
+    grid-row: 4/7;
+    grid-column: 5/7;
 }
 
 
@@ -28,17 +38,26 @@ h1{
     font-size: 2rem
 }
 
-.first-container, .second-container, .third-container, .fourth-container{
+
+.app-grid {
+    height: calc(100vh - 60px);
+    margin:30px;
+    display: grid;
+    grid-template-rows: repeat(9, 1fr); /* Make rows responsive */
+    grid-template-columns: repeat(8, 1fr); /* Make columns responsive */
+    grid-auto-rows: minmax(300px, 1fr); /* Ensure all rows have a minimum size */
+    grid-auto-columns: minmax(300px, 1fr); 
+    gap: 10px;
+}
+
+.first-container, .second-container, .third-container, .fourth-container, .fifth-container, .sixth-container {
     border-radius: 10px;
     flex-direction: column;
     padding: 10px;
-    margin: 10px;
     align-items: center;
     display: flex;
 
 }
-
-
 
 p{
     text-align: center;
@@ -49,6 +68,14 @@ p{
 
 img {
     width: 100px;
+}
+
+.socialmediaImage{
+    height: 30px;
+}
+
+.august-image{
+    width: 170px;
 }
 
 .stadistics-image{
