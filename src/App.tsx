@@ -9,6 +9,8 @@ import ThirdComponent from './ThirdComponent.tsx';
 import FourthComponent from './FourthComponent.tsx';
 import FifthComponent from './FifthComponent.tsx';
 import SixthComponent from './SixthComponent.tsx';
+import SeventhComponent from './SeventhComponent.tsx';
+import EightComponent from './EightComponent.tsx';
 
 
 const App:React.FC = () => {
@@ -20,6 +22,8 @@ const App:React.FC = () => {
       <FourthComponent></FourthComponent>
       <FifthComponent></FifthComponent>
       <SixthComponent></SixthComponent>
+      <SeventhComponent></SeventhComponent>
+      <EightComponent></EightComponent>
     </div>
   );
 }

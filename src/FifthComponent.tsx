@@ -5,10 +5,11 @@ import socialMediaImage from './assets/images/illustration-multiple-platforms.jp
 const FifthComponent = () => {
     return (
         <div className="fifth-container">
-            <p style={{ color:'black'}}>
-                Schedule to social media.
-            </p>
             <img src={socialMediaImage} alt='create post' className='socialmediaImage'/>
+            <p style={{ color:'black'}}>
+                Manage multiple accounts and platforms 
+            </p>
+            
         </div>
     );
 };

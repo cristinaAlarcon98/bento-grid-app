@@ -8,7 +8,7 @@ const FirstComponent = () => {
             <p style={{ color: 'black' }}>
                 Create and schedule content quicker
             </p>
-            <img src={createPostImage} alt='create post' />
+            <img className='create-post-image' src={createPostImage} alt='create post' />
         </div>
     );
 };

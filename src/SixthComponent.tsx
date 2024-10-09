@@ -6,7 +6,7 @@ const SixthComponent = () => {
     return (
         <div className="sixth-container">
             <p style={{ color:'black'}}>
-                Schedule to social media.
+                Maintain a consistent posting schedule
             </p>
             <img src={augustImage} alt='create post' className='august-image'/>
         </div>

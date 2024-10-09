@@ -8,7 +8,7 @@ const FourthComponent = () => {
             <p style={{ color: 'black' }}>
                 Write your content using AI
             </p>
-            <img src={chatImage} alt='create post' />
+            <img className='chat-image' src={chatImage} alt='chat image' />
         </div>
     );
 };
