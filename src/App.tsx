@@ -4,13 +4,13 @@ import './styles.css'
 
 
 import FirstComponent from './FirstComponent.component.tsx';
-import SecondComponent from './SecondComponent.tsx';
-import ThirdComponent from './ThirdComponent.tsx';
-import FourthComponent from './FourthComponent.tsx';
-import FifthComponent from './FifthComponent.tsx';
-import SixthComponent from './SixthComponent.tsx';
-import SeventhComponent from './SeventhComponent.tsx';
-import EightComponent from './EightComponent.tsx';
+import SecondComponent from './SecondComponent.component.tsx';
+import ThirdComponent from './ThirdComponent.component.tsx';
+import FifthComponent from './FifthComponent.component.tsx';
+import SixthComponent from './SixthComponent.component.tsx';
+import SeventhComponent from './SeventhComponent.component.tsx';
+import EightComponent from './EightComponent.component.tsx';
+import FourthComponent from './FourthComponent.component.tsx';
 
 
 const App:React.FC = () => {

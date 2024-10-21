@@ -8,7 +8,7 @@ const ThirdComponent = () => {
             <p style={{ color:'black'}}>
                 Schedule to social media.
             </p>
-            <img className='schedule-image' src={scheduleImage} alt='create post' className='scheduleImage'/>
+            <img className='schedule-image' src={scheduleImage} alt='create post' />
             <p style={{fontSize: '1rem', fontWeight:100}}>
                 Optimize post timings to publich content at the perfect time for your audience.
             </p>
