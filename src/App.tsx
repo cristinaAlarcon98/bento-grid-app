@@ -1,8 +1,5 @@
 import React from 'react';
 import './styles/styles.css'
-
-
-
 import FirstComponent from './components/FirstComponent.component.tsx';
 import SecondComponent from './components/SecondComponent.component.tsx';
 import ThirdComponent from './components/ThirdComponent.component.tsx';
