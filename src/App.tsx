@@ -1,16 +1,16 @@
 import React from 'react';
-import './styles.css'
+import './styles/styles.css'
 
 
 
-import FirstComponent from './FirstComponent.component.tsx';
-import SecondComponent from './SecondComponent.component.tsx';
-import ThirdComponent from './ThirdComponent.component.tsx';
-import FifthComponent from './FifthComponent.component.tsx';
-import SixthComponent from './SixthComponent.component.tsx';
-import SeventhComponent from './SeventhComponent.component.tsx';
-import EightComponent from './EightComponent.component.tsx';
-import FourthComponent from './FourthComponent.component.tsx';
+import FirstComponent from './components/FirstComponent.component.tsx';
+import SecondComponent from './components/SecondComponent.component.tsx';
+import ThirdComponent from './components/ThirdComponent.component.tsx';
+import FifthComponent from './components/FifthComponent.component.tsx';
+import SixthComponent from './components/SixthComponent.component.tsx';
+import SeventhComponent from './components/SeventhComponent.component.tsx';
+import EightComponent from './components/EightComponent.component.tsx';
+import FourthComponent from './components/FourthComponent.component.tsx';
 
 
 const App:React.FC = () => {
